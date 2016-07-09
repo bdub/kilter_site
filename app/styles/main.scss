@@ -189,6 +189,13 @@ font-size: 28px;
 padding: 20px 0 0 0 ;
 }
 
+#socialicons a {
+color: $nav-font;
+}
+#socialicons a:hover {
+color: $dark-blue;
+}
+
 .soldout, .soldout:hover {
 color: red;
 }
