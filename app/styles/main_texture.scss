@@ -1,0 +1,233 @@
+$icon-font-path: '../fonts/';
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic);
+
+@import "_variables.scss";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html { 
+  /*
+  background: url(/images/abstract-background-pink.jpg) no-repeat center center fixed; 
+  */
+  background: #000 url(/images/black_background_wood_texture-800x600.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  /*
+  background-image:url(/images/texture_1.jpg);
+  background: #000 url(/images/abstract-background-pink.jpg) no-repeat center center fixed; 
+  background: #000 url(https://c1.staticflickr.com/9/8567/16662707285_c3ce122abc_b.jpg) no-repeat center center fixed; 
+  background: #000 url(http://img08.deviantart.net/e1a9/i/2005/260/e/7/spider_web_texture_by_doodlebestock.jpg) no-repeat center fixed; 
+  background: #000 url(https://c1.staticflickr.com/9/8567/16662707285_c3ce122abc_b.jpg) no-repeat center center fixed; 
+  background: #000 url(/images/kilter_crowd_bw.jpg) no-repeat center center fixed; 
+  background: #000 url(/images/black_background_wood_texture-800x600.jpg) no-repeat center center fixed; 
+  background-size: cover;
+   */
+background: none;	  
+font-style: italic;
+position: relative;
+}
+
+.logo {
+height: 120px;
+margin-top: -20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+padding-top: 35px;	
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+#nav {
+/*
+background: url(/images/abstract-background-pink.jpg); 
+*/
+background-image:url(/images/header_bg.jpg);
+min-height: 100px;
+border: 0;
+}
+.navbar {
+border-bottom: 0 dotted $gray-base;
+/* border-bottom: 1px dotted $gray-base; */
+}
+
+.main-nav a {
+font-style: italic;
+font-size: 24px;
+font-weight: bold;
+padding-top: 200px;
+color: white;
+}
+
+.main-nav a:hover {
+	color: $brand-primary;
+}
+
+.navbar-toggle {
+	border: white 0 solid;
+}
+
+button.navbar-toggle:hover {
+	background-color: #fff;
+}
+
+
+
+
+/* Custom page footer */
+.footer {
+margin-top: 40px;	
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .container-wide {
+  max-width : 960px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 10px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.hero , .spotify {
+margin-top: 20px;
+border-radius: $border-radius-large ;
+}  
+
+.gig {
+padding: 10px 0;
+border-bottom: 1px dotted $gray-base;
+}
+
+.gig-heading {
+font-weight: bold;
+}
+
+h3 {
+font-weight: bold;
+font-style: italic;
+color: $brand-primary;
+}
+
+.row {
+text-align: center;
+}
+
+#instafeed img {
+padding: 15px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $brand-secondary;
+}
+
+#socialicons {
+font-size: 28px;
+padding: 20px 0 0 0 ;
+}
+
+.soldout, .soldout:hover {
+color: red;
+}
+
+#music, #news, #feels, #tickets , #shop , #home {
+	margin-top: -100px;
+	padding-top: 100px;
+}
+
+div.collapse  {
+background-image:none;
+}
+
+/*
+div.collapse.in , div.collapse.collapsing  {
+background-image:url(/images/header_bg.jpg);
+}
+div.collapse.in ul.list-inline li {
+display: block;
+}
+*/
+
+.navbar-collapse {
+border: 0;
+}
+
+nav-NO {
+padding-bottom: 150px;
+}
+
+.nav.nav-pills li a {
+	padding: 5px 10px; 
+}
+
+.nav.nav-pills li a:hover , .nav.nav-pills li a:focus {
+	background: none;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top.expandedNav{
+	padding-bottom: 200px;
+	border: 5px solid green;
+}
+
+ul, ul.nav li {
+text-align: right;
+}

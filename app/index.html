@@ -34,9 +34,9 @@
     <![endif]-->
    
    <nav id="nav" class="navbar navbar-inverse navbar-fixed-top"> 
-    <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img class="logo" src="/images/Kilter_logo.png" alt="">
+    <div class="container container-wide">
+                <a class="navbar-brand" href="#home">
+                    <img class="logo img-responsive" src="/images/KILTER.png" alt="">
                 </a>
         <div class="header">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -51,7 +51,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
         	<ul class="nav main-nav nav-pills pull-right">
-        	  <li><a href="#news">News</a></li>
         	  <li><a href="#music">Music</a></li>
         	  <li><a href="#tickets">Tickets</a></li>
         	  <li><a href="#shop">Shop</a></li>
@@ -70,10 +69,12 @@
    </nav>
 <div id="home" class="container container-wide">
 	<div class="row">
-		<img id="kilter-hero" class="hero img-responsive" src="images/kilter_giphy_still_2.gif" alt="Kilter Live"></div>
+		<div class="col-md-12">
+		<img id="kilter-hero-head" class="hero img-responsive" src="images/kilter_headshot.jpg" alt="Kilter"></div>
+	</div>	
 </div>
 
-   <div class="container">
+   <div class="container container-wide">
       <div id="news" class="row">
 	      <h3>Mailing List</h3>
       </div>
@@ -81,10 +82,20 @@
       	<div class="col-md-12">
 	<form class="form-inline">
   <div class="form-group">
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+    <input type="text" class="form-control" id="form_name" placeholder="Name">
   </div>
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="your@email.com">
+    <select class="form-control" id="form_location">
+  <option>Location</option>
+  <option>Sydney</option>
+  <option>Melbourne</option>
+  <option>Brisbane</option>
+  <option>...</option>
+  <option>Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="form_email" placeholder="your@email.com">
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
@@ -97,7 +108,9 @@
 		      <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Aartist%3A2syYGtINPRno1nxxil7UcJ" width="100%" height="400" frameborder="0" allowtransparency="true"></iframe>
 </div>
       </div>
-	<div id="tickets" class="row">
+	</div>
+	<div class="container container-wide">
+		<div id="tickets" class="row">
 		<h3>Shows</h3>
 	</div>
 
@@ -109,91 +122,91 @@
 </div -->
 
 <div class="row gig">
-<div class="date col-sm-3">Friday September&nbsp;2nd</div>
+<div class="date col-sm-3">Friday 2&nbsp;September</div>
 <div class="venue col-sm-2">Manning Bar</div>
 <div class="location col-sm-2">Sydney</div>
-<div class="tickets col-sm-5"><a class="ticket-a" href="#">Moshtix</a> | <a class="ticket-b" href="#">OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#" style="position:relative; "><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;" >Moshtix</a> | <a class="ticket-b" href="#" style="position: relative;" ><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;" >OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Saturday September&nbsp;3rd</div>
+<div class="date col-sm-3">Saturday 3&nbsp;September</div>
 <div class="venue col-sm-2">Snowtunes Festival</div>
 <div class="location col-sm-2">Jindabyne</div>
-<div class="tickets col-sm-5"><a class="ticket-a soldout" href="#">SOLD&nbsp;OUT&nbsp;!</a> | <a class="ticket-b soldout" href="#">SOLD&nbsp;OUT&nbsp;!</a> | <a class="ticket-c" href="#">facebook</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#" style="position:relative; "><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;" >Moshtix</a> | <a class="ticket-b" href="#" style="position: relative;" >OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Thursday September&nbsp;8th</div>
+<div class="date col-sm-3">Thursday 8&nbsp;September</div>
 <div class="venue col-sm-2">HWLR</div>
 <div class="location col-sm-2">Melbourne</div>
-<div class="tickets col-sm-5"><a class="ticket-a soldout" href="#">SOLD&nbsp;OUT&nbsp;!</a> | <a class="ticket-b" href="#">OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#" style="position:relative; "><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;" >Moshtix</a> | <a class="ticket-b" href="#" style="position: relative;" ><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;" >OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Saturday September&nbsp;10th</div>
+<div class="date col-sm-3">Saturday 10&nbsp;September</div>
 <div class="venue col-sm-2">Fat Controller</div>
 <div class="location col-sm-2">Adelaide</div>
-<div class="tickets col-sm-5"><a class="ticket-a" href="#">Moshtix</a> | <a class="ticket-b" href="#">OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#" style="position:relative; "><!-- img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;" -->Moshtix</a> | <a class="ticket-b" href="#" style="position: relative;" ><!-- img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;" -->OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Sunday September&nbsp;11th</div>
+<div class="date col-sm-3">Sunday 11&nbsp;September</div>
 <div class="venue col-sm-2">Jack Rabbit Slims</div>
 <div class="location col-sm-2">Perth</div>
-<div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#" style="position:relative; "><!-- img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;" -->Moshtix</a> | <a class="ticket-b" href="#" style="position: relative;" ><img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;">OzTix</a> | <a class="ticket-c" href="#">facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Friday September&nbsp;16th</div>
+<div class="date col-sm-3">Friday 16&nbsp;September</div>
 <div class="venue col-sm-2">Small Ballroom</div>
 <div class="location col-sm-2">Newcastle TBC</div>
-<div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
+<div class="tickets col-sm-5"><a class="ticket-a" href="#">Moshtix</a> | <a class="ticket-b" href="#">Ticketmaster</a> | <a class="ticket-c" href="#">Facebook</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Saturday September&nbsp;17th</div>
+<div class="date col-sm-3">Saturday 17&nbsp;September</div>
 <div class="venue col-sm-2">Oh Hello</div>
 <div class="location col-sm-2">Brisbane</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Tuesday September&nbsp;20th</div>
+<div class="date col-sm-3">Tuesday 20&nbsp;September</div>
 <div class="venue col-sm-2">Bondstock Uni Gig</div>
 <div class="location col-sm-2">Gold Coast</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Wednesday September&nbsp;21th</div>
+<div class="date col-sm-3">Wednesday 21&nbsp;September</div>
 <div class="venue col-sm-2">TBC</div>
 <div class="location col-sm-2">Queenstown TBC</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Thursday September&nbsp;22nd</div>
+<div class="date col-sm-3">Thursday 22&nbsp;September</div>
 <div class="venue col-sm-2">TBC</div>
 <div class="location col-sm-2">Dunedin TBC</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Friday September&nbsp;23rd</div>
+<div class="date col-sm-3">Friday 23&nbsp;September</div>
 <div class="venue col-sm-2">Empire</div>
 <div class="location col-sm-2">Christchurch</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Saturday September&nbsp;24th</div>
+<div class="date col-sm-3">Saturday 24&nbsp;September</div>
 <div class="venue col-sm-2">Neck of the Woods</div>
 <div class="location col-sm-2">Auckland</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
 </div>
 
 <div class="row gig">
-<div class="date col-sm-3">Saturday October&nbsp;1st</div>
+<div class="date col-sm-3">Saturday 1&nbsp;October</div>
 <div class="venue col-sm-2">Yours & Owls Festival</div>
 <div class="location col-sm-2">Wollongong</div>
 <div class="tickets col-sm-5"><a class="ticket-a" href="#">Ticket</a> | <a class="ticket-b" href="#">Ticket</a> | <a class="ticket-c" href="#">Ticket</a></div>
@@ -208,8 +221,11 @@
       	<div class="col-xs-4"><img class="img-responsive" src="/images/artwork_04.jpg" alt="" onclick="javascript:alert('coming soon!')"></div>
       	<div class="col-xs-4"><img class="img-responsive" src="/images/kilter-tee-festival.jpg" alt="" onclick="javascript:alert('coming soon!')"></div>
       	<div class="col-xs-4"><img class="img-responsive" src="/images/artwork_04.jpg" alt="" onclick="javascript:alert('coming soon!')"></div>
+      
       </div>
-      <div id="feels" class="row">
+      </div>
+      <div class="container">
+<div id="feels" class="row">
 	      <h3>Instagram</h3>
       </div>
 
@@ -232,8 +248,12 @@
 <a class="icon" href="https://soundcloud.com/kilterbeats" title="Follow me on SoundCloud" target="_blank"><i class="fa fa-soundcloud"></i></a>
 <!-- a class="icon" href="mailto:LINK" title="Email Me" target="_blank"><i class="fa fa-envelope"></i></a -->
 </div>
-<div class="col-md-12 text-center">
-<img src="/images/kilter_giphy_32.gif" width=40 height=20 />
+<div class="col-md-12 text-center agencies">
+<img src="/images/kilter_giphy_32.gif" height=40 id="giphy" />
+</div>
+<div class="col-md-12 text-center agencies">
+	<a href="http://etcetc.tv"><img id="etcetc" src="/images/etcetc.png" alt="etcetc"></a>
+	<a href="http://nuffsaid.com.au"><img id="nuffsaid" alt="NUFFSAID" src="/images/nuffsaid.png"/></a> 
 </div>
     </div>
     
