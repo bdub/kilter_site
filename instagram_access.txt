@@ -1,0 +1,35 @@
+
+
+Successfully registered 'kilter_site_feed'
+
+Are you sure you want to delete this client?
+
+Are you sure you want to reset this client secret?
+
+kilter_site_feed
+Client Info
+Client ID 	5607c73a3aed432781818e00033624e6
+Client Secret 	ca932c8debb1470b945d13afa7366ee7
+Website URL 	kiltermusic.com
+Redirect URI 	http://localhost
+Support Email 	ben@forward.net.au
+
+
+The "Author Name" is: kilterbeats
+
+The "User ID" is: 143935802
+
+On here is the image you asked for:
+
+
+
+
+me:
+
+The "Author Name" is: wardbe
+
+The "User ID" is: 15677665
+
+On here is the image you asked for:
+
+http://localhost/#access_token=15677665.5607c73.4b7f88d62d9444eeae1476b567245c4b
