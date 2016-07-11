@@ -120,24 +120,32 @@ margin-top: 40px;
 }
 
 
-#socialicons {
+.socialicons {
 font-size: 24px;
 padding: 0 ;
 display: none;
 }
 
-#socialicons a {
+.socialicons a {
 color: $nav-font;
 }
-#socialicons a:hover {
+.socialicons a:hover {
 color: $dark-blue;
+}
+
+.bottomicons {
+padding: 20px;
+display: block;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 500px) {
 
-	#socialicons {
+	.socialicons {
 	display: block;
+	}
+	.bottomicons {
+	display: none;
 	}
 }
 
