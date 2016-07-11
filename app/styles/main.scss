@@ -119,6 +119,28 @@ margin-top: 40px;
   margin: 30px 0;
 }
 
+
+#socialicons {
+font-size: 24px;
+padding: 0 ;
+display: none;
+}
+
+#socialicons a {
+color: $nav-font;
+}
+#socialicons a:hover {
+color: $dark-blue;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 500px) {
+
+	#socialicons {
+	display: block;
+	}
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -182,18 +204,6 @@ padding: 15px;
 a:hover {
 	text-decoration: none;
 	color: $brand-secondary;
-}
-
-#socialicons {
-font-size: 28px;
-padding: 20px 0 0 0 ;
-}
-
-#socialicons a {
-color: $nav-font;
-}
-#socialicons a:hover {
-color: $dark-blue;
 }
 
 .soldout, .soldout:hover {
