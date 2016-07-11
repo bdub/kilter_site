@@ -273,12 +273,14 @@ height: 8px;
 
 .agencies {
 padding: 20px;
-display: table-cell;
-vertical-align : middle;
 }
 
 #etcetc , #nuffsaid , #giphy {
 margin: 0 40px;
+}
+
+#etcetc:hover , #nuffsaid:hover {
+
 }
 
 
