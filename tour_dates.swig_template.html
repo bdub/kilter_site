@@ -1,0 +1,16 @@
+<!-- BEGIN tour_dates -->
+{% for d in dates %}
+<div class="row gig">
+<div class="date col-sm-3">{{ d.show_date }}</div>
+<div class="venue col-sm-2">{{ d.venue }}</div>
+<div class="location col-sm-2">{{ d.territory }}</div>
+<div class="tickets col-sm-5">{% if d.ticket_1_name %}<a class="ticket-a" href="{{ d.ticket_1_link }}" style="position:relative; ">{% if d.ticket_1_sold_out %}<img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;">{% endif %}{{ d.ticket_1_name }}</a> | {% endif %}{% if d.ticket_2_name %}<a class="ticket-b" href="{{ d.ticket_2_link }}" style="position: relative;" >{% if d.ticket_2_sold_out %}<img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;">{% endif %}{{ d.ticket_2_name }}</a> | {% endif %}<a class="ticket-c" href="{{ d.facebook }}">facebook</a></div>
+</div>
+{% endfor %}
+
+<option disabled selected value> -- Location -- </option>
+{% for d in dates %}
+<option>{{ d.territory}}</option>
+{% endfor %}
+<option>Other..</option>
+<!-- END tour_dates -->
