@@ -183,8 +183,15 @@ border-radius: $border-radius-large ;
 }  
 
 
-#signup {
+.signup {
 padding-top: 20px;
+}
+
+div.mce_inline_error {
+color: red;
+background-color: none;
+font-size: 12px;
+
 }
 
 .gig {
