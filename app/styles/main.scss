@@ -28,7 +28,7 @@ html {
 
 /* Space out content a bit */
 body {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 20px;
   /*
   background-image:url(/images/texture_1.jpg);
@@ -134,11 +134,12 @@ color: $dark-blue;
 }
 
 .bottomicons {
+margin-top: 50px;
 padding: 20px;
 display: block;
 }
 
-/* Responsive: Portrait tablets and up */
+/* Responsive: Portrait tablets and up
 @media screen and (min-width: 500px) {
 
 	.socialicons {
@@ -148,6 +149,8 @@ display: block;
 	display: none;
 	}
 }
+
+*/
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
