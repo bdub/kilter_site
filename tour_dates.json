@@ -1,146 +1,211 @@
-{ "dates": [
+{ "dates_us": [
   {
-    "show_date": "Friday 2 September",
-    "territory": "Sydney",
-    "venue": "Manning Bar",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/sydney-moshtix",
-    "ticket_1_sold_out": "True",
-    "ticket_2_name": "Oztix",
-    "ticket_2_link": "https://Kilter.lnk.to/sydney-oztix",
-    "ticket_2_sold_out": "True",
-    "facebook": "https://Kilter.lnk.to/sydney-fb"
-  },
-  {
-    "show_date": "Saturday 3 September",
-    "territory": "Jindabyne",
-    "venue": "Snowtunes Festival",
-    "ticket_1_name": "Ticketbooth",
-    "ticket_1_link": "https://Kilter.lnk.to/snowtunes",
+    "show_date": "20th April",
+    "territory": "Atlanta",
+    "venue": "The Masquerade",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Atlanta17",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/snowtunes-fb"
-  },
+    "facebook": "https://www.facebook.com/events/1946496455583387/"
+  }, 
   {
-    "show_date": "Thursday 8 September",
-    "territory": "Melbourne",
-    "venue": "HWLR",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/melbourne",
-    "ticket_1_sold_out": "True",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/melbourne-fb"
-  },
-  {
-    "show_date": "Saturday 10 September",
-    "territory": "Adelaide",
-    "venue": "Fat Controller",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/adelaide",
+    "show_date": "21st April",
+    "territory": "Miami",
+    "venue": "Bardot",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Miami17",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/adelaide-fb"
-  },
+    "facebook": "https://www.facebook.com/events/1423106541086830/"
+  }, 
   {
-    "show_date": "Sunday 11 September",
-    "territory": "Perth",
-    "venue": "Jack Rabbit Slims",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/perth-moshtix",
-    "ticket_1_sold_out": "True",
-    "ticket_2_name": "Ticketbooth",
-    "ticket_2_link": "https://Kilter.lnk.to/perth-ticketbooth",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/perth-fb"
-  },
-  {
-    "show_date": "Friday 16 September",
-    "territory": "Newcastle",
-    "venue": "Small Ballroom",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/newcastle-moshtix",
-    "ticket_1_sold_out": "True",
-    "ticket_2_name": "Oztix",
-    "ticket_2_link": "https://Kilter.lnk.to/newcastle-oztix",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/newcastle-fb"
-  },
-  {
-    "show_date": "Saturday 17 September",
-    "territory": "Brisbane",
-    "venue": "Oh Hello",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/brisbane",
+    "show_date": "22nd April",
+    "territory": "New York",
+    "venue": "Webster Hall",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/NewYork17",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/brisbane-fb"
-  },
+    "facebook": "https://www.facebook.com/events/915039685298881/"
+  }, 
   {
-    "show_date": "Tuesday 20 September",
-    "territory": "Gold Coast",
-    "venue": "Bondstock",
-    "ticket_1_name": "Coming Soon",
+    "show_date": "26th April",
+    "territory": "Washington DC",
+    "venue": "U Street Music Hall",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Washington17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1860932240845775/"
+  }, 
+  {
+    "show_date": "28th April",
+    "territory": "San Francisco",
+    "venue": "Popscene @ The Rickshaw Stop",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/SanFrancisco17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/250051415452355/"
+  }, 
+  {
+    "show_date": "29th April",
+    "territory": "Los Angeles",
+    "venue": "West End",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/LA17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/260994567655226/"
+  }, 
+  {
+    "show_date": "3rd May",
+    "territory": "Denver",
+    "venue": "Bar Standard",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Denver17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1760339580887710/"
+  }, 
+  {
+    "show_date": "4th May",
+    "territory": "Chicago",
+    "venue": "Reggies",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Chicago17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/777489375743655/"
+  },  {
+    "show_date": "5th May",
+    "territory": "Montreal",
+    "venue": "Newspeak",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Montreal17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/867061763436196/"
+  }, 
+  {
+    "show_date": "6th May",
+    "territory": "Toronto",
+    "venue": "The Drake Underground",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Toronto17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1932955103599117/"
+  }, 
+  {
+    "show_date": "9th May",
+    "territory": "Phoenix",
+    "venue": "Valley Bar",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Phoenix17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1922776144675292/"
+  }, 
+  {
+    "show_date": "10th May",
+    "territory": "El Paso",
+    "venue": "Lowbrow Palace",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/ElPaso17  ",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/201123733700392/"
+  }, 
+  {
+    "show_date": "11th May",
+    "territory": "Dallas",
+    "venue": "Three Links",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Dallas17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1631258777180937/"
+  }, 
+  {
+    "show_date": "12th May",
+    "territory": "Austin",
+    "venue": "Sidewinder",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Austin17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/1189704281149287/"
+  }, 
+  {
+    "show_date": "13th May",
+    "territory": "Houston",
+    "venue": "Secret Group",
+    "ticket_1_name": "TICKETS",
+    "ticket_1_link": "https://Kilter.lnk.to/Houston17",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/events/393367597701136/"
+  }
+],
+
+ "dates_au": [
+  {
+    "show_date": "16th June",
+    "territory": "Canberra",
+    "venue": "Academy",
+    "ticket_1_name": "Signup for presale",
     "ticket_1_link": "",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "N/A"
-  },
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
   {
-    "show_date": "Thursday 22 September",
-    "territory": "Dunedin",
-    "venue": "The Cook",
-    "ticket_1_name": "Door Sales Only",
-    "ticket_1_link": "#",
+    "show_date": "23rd June",
+    "territory": "Brisbane",
+    "venue": "Triffid",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/dunedin-fb"
-  },
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
   {
-    "show_date": "Friday 23 September",
-    "territory": "Christchurch",
-    "venue": "Empire",
-    "ticket_1_name": "Ticketfairy",
-    "ticket_1_link": "https://Kilter.lnk.to/christchurch",
+    "show_date": "25th June",
+    "territory": "Newcastle",
+    "venue": "Cambridge",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/christchurch-fb"
-  },
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
   {
-    "show_date": "Saturday 24 September",
-    "territory": "Auckland",
-    "venue": "Neck of the Woods",
-    "ticket_1_name": "Ticketfairy",
-    "ticket_1_link": "https://Kilter.lnk.to/auckland",
+    "show_date": "30th June",
+    "territory": "Perth",
+    "venue": "Villa",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/auckland-fb"
-  },
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
   {
-    "show_date": "Saturday 1 October",
-    "territory": "Wollongong",
-    "venue": "Yours & Owls Festival",
-    "ticket_1_name": "Moshtix",
-    "ticket_1_link": "https://Kilter.lnk.to/wollongong",
+    "show_date": "1st July",
+    "territory": "Adelaide",
+    "venue": "Fat Controller",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
     "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": "https://Kilter.lnk.to/wollongong-fb"
-  }
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
+  {
+    "show_date": "7th July",
+    "territory": "Melbourne",
+    "venue": "The Prince",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
+  {
+    "show_date": "8th July",
+    "territory": "Sydney",
+    "venue": "Max Watts",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  }, 
+  {
+    "show_date": "23rd July",
+    "territory": "Byron Bay",
+    "venue": "Splendour In The Grass",
+    "ticket_1_name": "Signup for presale",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats/"
+  } 
 ]}
