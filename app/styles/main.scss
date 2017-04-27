@@ -39,7 +39,7 @@ html {
 
 /* Space out content a bit */
 body {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 20px;
 font-weight:100;
 //text-transform: uppercase;
@@ -48,9 +48,16 @@ letter-spacing: 0.15em;
 
 .logo {
 max-width: 200px;
-	margin-top: 20px;
+	margin-top: 0;
+	margin: 0 auto 0 auto ; 
+	//padding: 0 ;
+       	//border: 1px solid yellow;
 }
-
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -61,7 +68,7 @@ max-width: 200px;
 
 /* Custom page header */
 .header {
-padding-top: 26px;	
+padding-top: 10px;	
   /* Make the masthead heading the same height as the navigation */
   h3 {
     margin-top: 0;
@@ -79,6 +86,7 @@ background-image:url(/images/header_bg.jpg);
 min-height: 40px;
 border: 0;
 }
+
 .navbar {
 border-bottom: 0 dotted $gray-base;
 /* border-bottom: 1px dotted $gray-base; */
@@ -105,6 +113,10 @@ button.navbar-toggle:hover {
 	background-color: #fff;
 }
 
+
+a.navbar-brand {
+padding-top: 10px;
+}
 
 
 
@@ -147,6 +159,28 @@ ul.nav.main-nav.nav-pills {
 	display: none;
 	}
 
+div.flex-container {
+}
+
+
+div.callout-container {
+display: inline-block;	
+vertical-align: middle;
+float : none;
+}
+
+
+h2.callout {
+margin: 0;
+padding: 0;
+//border: 1px solid red;
+}
+h3.callout {
+padding: 0;
+//margin: 10px 0 40px 0;
+margin: 40px 0;
+//border: 1px solid yellow;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 500px) {
@@ -164,7 +198,10 @@ ul.nav.main-nav.nav-pills {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-	.container {
+body {
+  padding-top: 80px;
+}
+  .container {
 	  max-width: 730px;
 	}
 
@@ -192,8 +229,31 @@ ul.nav.main-nav.nav-pills {
 	ul.nav.main-nav.nav-pills {
 	display: block;
 	}
+	.logo {
+	max-width: 200px;
+	margin-top: 10px;
+	}
+	.navbar-brand {
+	  transform: translateX(0);
+	  left: 0;
+	  position: relative;
+	}
+	div.flex-container {
+	    display: flex;
+	    display: -ms-flexbox; // IE10 support
+	    align-items: center;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	.container-wide {
+		max-width: 1160px; 
+	}
 
 }
+
 
 .hero , .spotify {
 border-radius: $border-radius-large ;
@@ -269,7 +329,7 @@ display: block;
 border: 0;
 }
 
-nav-NO {
+.nav-NO {
 padding-bottom: 150px;
 }
 
@@ -333,32 +393,9 @@ margin: 0 40px;
 #etcetc:hover , #nuffsaid:hover {
 
 }
-div.vertical-align {
-    display: flex;
-    display: -ms-flexbox; // IE10 support
-    align-items: center;
+
+div.header {
+//padding-top : 0;
 }
-
-
-div.callout-container {
-display: inline-block;	
-vertical-align: middle;
-float : none;
-}
-
-
-h2.callout {
-margin: 0;
-padding: 0;
-//border: 1px solid red;
-}
-h3.callout {
-padding: 0;
-//margin: 10px 0 40px 0;
-margin: 40px 0;
-//border: 1px solid yellow;
-}
-
-
 
 
