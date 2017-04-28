@@ -166,3 +166,29 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 gulp.task('default', ['clean'], () => {
   gulp.start('build');
 });
+
+
+// MY CUSTOM GULP COMMANDS
+//
+
+// run swig template render on save of template
+var exec = require('child_process').exec;
+import wait from 'gulp-wait2';
+
+gulp.task('swigi', function (cb) {
+  exec('node ./node_modules/swig/bin/swig.js render ./tour_dates.swig_template.html -j ./tour_dates.json > ./app/index.html', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+    return gulp.src('./app/index.html');
+  });
+})
+// when 'swigi' completes reload.
+gulp.task('swigi-watch', ['swigi'], function (done) {
+    gulp.src('./app/index.html').pipe(wait(1500).pipe(dest('./app/index.html')))
+    reload();
+    done();
+});
+// watch the template - on change run 'swigi' task
+gulp.watch('./tour_dates.json', ['swigi-watch']);
+gulp.watch('./tour_dates.swig_template.html', ['swigi-watch']);
