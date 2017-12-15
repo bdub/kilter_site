@@ -114,11 +114,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- BEGIN tour_dates -->
+<!--
 
 		<div id="tickets" class="row">
 		<h3>North American Tour</h3>
 	</div>
-
 
 {% for d in dates_us %}
 <div class="row gig">
@@ -128,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="tickets col-sm-4">{% if d.ticket_1_name %}<a class="ticket-a" href="{{ d.ticket_1_link }}" target="_blank" style="position:relative; ">{% if d.ticket_1_sold_out %}<img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:90%;">{% endif %}{{ d.ticket_1_name }}</a> | {% endif %}{% if d.ticket_2_name %}<a class="ticket-b" href="{{ d.ticket_2_link }}" target="_blank" style="position: relative;" >{% if d.ticket_2_sold_out %}<img src="images/soldout.png" alt="SOLDOUT" style="position: absolute; top: 0; left: 0; width:100%;">{% endif %}{{ d.ticket_2_name }}</a> | {% endif %}<a class="ticket-c" href="{{ d.facebook }}" target="_blank">facebook</a></div>
 </div>
 {% endfor %}
-
+-->
 
 
 <!-- END tour_dates -->

@@ -102,7 +102,7 @@
     "territory": "El Paso",
     "venue": "Lowbrow Palace",
     "ticket_1_name": "tickets",
-    "ticket_1_link": "https://Kilter.lnk.to/ElPaso17  ",
+    "ticket_1_link": "https://Kilter.lnk.to/ElPaso17",
     "ticket_1_sold_out": "",
     "facebook": "https://www.facebook.com/events/201123733700392/"
   }, 
@@ -134,7 +134,6 @@
     "facebook": "https://www.facebook.com/events/393367597701136/"
   }
 ],
-
  "dates_au_email": [
   {
     "show_date": "23rd June",
@@ -283,8 +282,200 @@
     "ticket_2_name": "",
     "ticket_2_link": "",
     "ticket_2_sold_out": "",
-    "facebook": ""
-  } 
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "26 July",
+    "territory": "New Zealand - Wellington",
+    "venue": "Meow",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "27 July",
+    "territory": "New Zealand - Dunedin",
+    "venue": "Re:Fuel",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "28 July",
+    "territory": "New Zealand",
+    "venue": "Queenstown – World Bat",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "29 July",
+    "territory": "New Zealand - Auckland",
+    "venue": "Gelatos",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "10 August",
+    "territory": "Bathurst",
+    "venue": "DK Poolclub",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "11 August",
+    "territory": "Sydney - UTS",
+    "venue": "Winterfest",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "12 August",
+    "territory": "Warnambool",
+    "venue": "Whalers",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "19 August",
+    "territory": "Geelong",
+    "venue": "Uno Dance Club",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "26 August",
+    "territory": "Airlie Beach",
+    "venue": "Magnums",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "1 September",
+    "territory": "Central Coast",
+    "venue": "Proud Marys",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "2 September",
+    "territory": "Coffs Harbour",
+    "venue": "Coffs Harbour Hotel",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "14 September",
+    "territory": "Sydney",
+    "venue": "Macquarie Uni – Conception Day",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "22 September",
+    "territory": "Wollongong",
+    "venue": "FRNDS @ Unibar",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "30 September",
+    "territory": "Bali",
+    "venue": "Bestival",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "1 October",
+    "territory": "Bali",
+    "venue": "Bestival",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  },
+  {
+    "show_date": "25 November",
+    "territory": "Canberra",
+    "venue": "Spilt Milk Festival",
+    "ticket_1_name": "",
+    "ticket_1_link": "",
+    "ticket_1_sold_out": "",
+    "ticket_2_name": "",
+    "ticket_2_link": "",
+    "ticket_2_sold_out": "",
+    "facebook": "https://www.facebook.com/kilterbeats"
+  }
 ],
 "dates_au_all": [
   {
@@ -358,17 +549,5 @@
     "ticket_2_link": "https://kilter.lnk.to/TTDSydney",
     "ticket_2_sold_out": "",
     "facebook": "https://kilter.lnk.to/TTDSydFB"
-  }, 
-  {
-    "show_date": "23rd July",
-    "territory": "Byron Bay",
-    "venue": "Splendour In The Grass",
-    "ticket_1_name": "",
-    "ticket_1_link": "",
-    "ticket_1_sold_out": "",
-    "ticket_2_name": "",
-    "ticket_2_link": "",
-    "ticket_2_sold_out": "",
-    "facebook": ""
   } 
 ]}
