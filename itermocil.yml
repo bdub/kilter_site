@@ -1,0 +1,7 @@
+windows:
+  - name: kilter-tour-site
+    root: ~/projects/kilter_tour_site
+    layout: even-horizontal
+    panes:
+      - ls -la ; mvim . 
+      - gulp serve
