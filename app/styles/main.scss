@@ -39,7 +39,7 @@ html {
 
 /* Space out content a bit */
 body {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 20px;
 font-weight:100;
 //text-transform: uppercase;
@@ -47,11 +47,11 @@ letter-spacing: 0.15em;
 }
 
 .logo {
-max-width: 200px;
+max-width: 150px;
 	margin-top: 0;
 	margin: 0 auto 0 auto ; 
-	//padding: 0 ;
-       	//border: 1px solid yellow;
+    padding: 0 ;
+    //border: 1px solid yellow;
 }
 .navbar-brand {
   transform: translateX(-50%);
@@ -83,7 +83,7 @@ padding-top: 10px;
 background: url(/images/abstract-background-pink.jpg); 
 background-image:url(/images/header_bg.jpg);
 */
-min-height: 40px;
+min-height: 60px;
 border: 0;
 }
 
@@ -169,6 +169,13 @@ vertical-align: middle;
 float : none;
 }
 
+h1.callout {
+margin: 20px;
+}
+
+strong {
+color: $k_white;
+}
 
 h2.callout {
 margin: 0;
@@ -230,8 +237,8 @@ body {
 	display: block;
 	}
 	.logo {
-	max-width: 200px;
-	margin-top: 10px;
+	max-width: 150px;
+	margin-top: 0px;
 	}
 	.navbar-brand {
 	  transform: translateX(0);
@@ -402,4 +409,12 @@ div.header {
 
     font-size: 4em;
 
+}
+
+.title {
+color: $k_red ; 
+}
+
+h3 {
+color : $k_red ; 
 }
